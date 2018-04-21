@@ -376,10 +376,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9507e18abe25d4136afcd8c76cb35587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  move: 0
   BlockOptions:
   - {fileID: 1578115959861198, guid: 876b683466d02442fa985d40f16eb325, type: 2}
   - {fileID: 1906594929255436, guid: 0e4262a5ecb90475fb87d749948fcc6f, type: 2}
   - {fileID: 1728018487987416}
+  dist: 10
 --- !u!212 &212166168882112568
 SpriteRenderer:
   m_ObjectHideFlags: 1

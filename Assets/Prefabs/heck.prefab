@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212387463066282462}
   - component: {fileID: 114892489406857834}
   - component: {fileID: 114153805198154908}
-  - component: {fileID: 60019685726350466}
+  - component: {fileID: 61116649761227412}
   m_Layer: 0
   m_Name: heck
   m_TagString: Heck
@@ -43,8 +43,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &60019685726350466
-PolygonCollider2D:
+--- !u!61 &61116649761227412
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -59,22 +59,15 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 2}
-    newSize: {x: 4, y: 2}
+    oldSize: {x: 2, y: 1}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -1.9, y: -0.9}
-      - {x: 1.9, y: -0.9}
-      - {x: 1.9, y: 0.9}
-      - {x: 1.1, y: 0.9}
-      - {x: 1.1, y: -0.1}
-      - {x: -1.1, y: -0.1}
-      - {x: -1.1, y: 0.9}
-      - {x: -1.9, y: 0.9}
+  serializedVersion: 2
+  m_Size: {x: 1.8, y: 0.8}
+  m_EdgeRadius: 0
 --- !u!114 &114153805198154908
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -138,7 +131,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4, y: 2}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
